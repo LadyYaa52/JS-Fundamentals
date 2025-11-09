@@ -1,6 +1,5 @@
 const args = process.argv;
-
-
+const process = require('node:process');
 if (args.length === 0) {
   console.log("No argument");
 } else if (args.length === 1) {
@@ -8,5 +7,6 @@ if (args.length === 0) {
 } else {
   console.log("Arguments found");
 }
+
 
 
